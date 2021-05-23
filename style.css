@@ -13,24 +13,29 @@ body{
   height: 100vh;
 }
 #main{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 640px;
   justify-content: center;
 }
 #logo{
   background: url(logo.svg) no-repeat;
   width: 86px;
   height: 26px;
-}
-#image{
-  width: 640px;
-  height: 390px;
-  background: url(illustration-dashboard.png) no-repeat center;
-  background-size:cover;
+  margin: 0 268px;
 }
 #soon{}
+h1{
+  font-size: 3em;
+  font-weight: 300;
+  padding: 50px 0 25px 0;
+}
+h3{
+  padding-bottom: 40px;
+}
 #form{
   display: flex;
+  margin-bottom: 90px;
 }
 input{
   width: 425px;
@@ -52,4 +57,28 @@ button{
   font-size: 16px;
   font-weight: 600;
   margin-left: 20px;
+}
+#image{
+  width: 640px;
+  height: 390px;
+  background: url(illustration-dashboard.png) no-repeat center;
+  background-size:cover;
+  margin-bottom: 70px;
+}
+#social{
+  color: hsl(223, 87%, 63%);
+  margin-bottom: 30px;
+}
+i{
+  border: 1px solid hsl(0, 0%, 59%);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  line-height: 30px;
+  padding: 6px;
+}
+#copyright{
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
 }
