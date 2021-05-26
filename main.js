@@ -28,7 +28,7 @@ function setErrorFor(input, message){
     small.innerText = message;
   
     //add error class
-    formControl.className ='form-control error'
+    formControl.className ='error'
   }
 
 function isEmail(email){
