@@ -82,3 +82,39 @@ i{
   color: hsl(0, 0%, 59%);
   font-size: 12px;
 }
+@media only screen and (max-width: 375px){
+  body{
+    width: 375px;
+    height: 800px;
+  }
+  #main{
+    max-width: 325px;
+  }
+  #logo{
+    margin: 80px 0 40px 0;
+  }
+  h1{
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 30px 0 0px 0;
+  }
+  h3{
+    padding-bottom: 20px;
+  }
+  #form{
+    width: 325px;
+    flex-direction: column;
+  }
+  #image{
+    width: 325px;
+    height: 180px;
+  }
+  input{
+    width: 325px;
+    margin-bottom: 20px;
+  }
+  button{
+    width: 325px;
+    margin: 0;
+  }
+}
